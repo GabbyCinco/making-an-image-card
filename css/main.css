@@ -17,6 +17,16 @@ html {
   border-radius: 0 6px 6px;
 }
 
+.card-head {
+  position: relative;
+}
+
+.card-label {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
 .card-body {
   padding: .2rem 1rem;
 }
@@ -24,6 +34,10 @@ html {
 .card-title {
   margin: 0;
   padding: .3rem 1rem;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
 }
 
 .card-label {
